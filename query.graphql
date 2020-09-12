@@ -1,0 +1,17 @@
+{
+  viewer {
+    login
+    watching(last: 10) {
+      nodes {
+        name
+        pushedAt
+        isArchived
+        resourcePath
+        owner {
+          login
+        }
+      }
+      totalCount
+    }
+  }
+}
