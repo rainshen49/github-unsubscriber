@@ -3,6 +3,7 @@
     login
     watching(last: 10) {
       nodes {
+        id
         name
         pushedAt
         isArchived

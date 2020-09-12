@@ -1,0 +1,7 @@
+mutation ($repositoryId: String!) {
+  updateSubscription(input: {subscribableId: $repositoryId, clientMutationId: "blah", state: UNSUBSCRIBED}) {
+    subscribable {
+      id
+    }
+  }
+}
